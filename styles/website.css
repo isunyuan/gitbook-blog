@@ -1,0 +1,5 @@
+#book-search-input input,
+#book-search-input input:focus,
+#book-search-input input:hover {
+    padding: 7px 15px 7px 24px;
+}
