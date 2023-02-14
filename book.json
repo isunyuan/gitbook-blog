@@ -1,0 +1,51 @@
+{
+  "title": "FE Notes",
+  "author": "SunYuan",
+  "description": "select * from learn",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "structure": {
+    "readme": "README.md"
+  },
+  "links": {
+    "sidebar": {
+      "关于我": "https://isunyuan.com"
+    }
+  },
+  "plugins": [
+    "-sharing",
+    "expandable-chapters-small",
+    "sidebar-style",
+    "github-buttons",
+    "favicon"
+  ],
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "isunyuan",
+          "repo": "blog",
+          "type": "star",
+          "size": "small",
+          "count": true
+        }
+      ]
+    },
+    "sidebar-style": {
+        "title": "FE Notes",
+        "author": "email@isunyuan.com"
+    },
+    "favicon": {
+      "shortcut": "source/images/favicon.ico",
+      "bookmark": "source/images/favicon.ico",
+      "appleTouch": "source/images/apple-touch-icon.png",
+      "appleTouchMore": {
+        "120x120": "source/images/apple-touch-icon.png",
+        "180x180": "source/images/apple-touch-icon.png"
+      }
+    }
+  }
+}
