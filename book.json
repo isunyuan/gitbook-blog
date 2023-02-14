@@ -1,7 +1,7 @@
 {
   "title": "FE Notes",
   "author": "SunYuan",
-  "description": "select * from learn",
+  "description": "Welcome to my blog",
   "language": "zh-hans",
   "gitbook": "3.2.3",
   "styles": {
@@ -10,17 +10,19 @@
   "structure": {
     "readme": "README.md"
   },
-  "links": {
-    "sidebar": {
-      "关于我": "https://isunyuan.com"
-    }
-  },
   "plugins": [
     "-sharing",
+    "fontsettings",
+    "-search",
+    "search-pro",
     "expandable-chapters-small",
     "sidebar-style",
     "github-buttons",
-    "favicon"
+    "favicon",
+    "code",
+    "popup",
+    "back-to-top-button",
+    "tbfed-pagefooter"
   ],
   "pluginsConfig": {
     "github-buttons": {
@@ -35,8 +37,8 @@
       ]
     },
     "sidebar-style": {
-        "title": "FE Notes",
-        "author": "email@isunyuan.com"
+      "title": "FE Notes",
+      "author": "email@isunyuan.com"
     },
     "favicon": {
       "shortcut": "source/images/favicon.ico",
@@ -46,6 +48,11 @@
         "120x120": "source/images/apple-touch-icon.png",
         "180x180": "source/images/apple-touch-icon.png"
       }
+    },
+    "tbfed-pagefooter": {
+      "copyright": "人是挂在自己编织的意义之网上的动物。",
+      "modify_label": "更新时间：",
+      "modify_format": "YYYY-MM-DD"
     }
   }
 }
