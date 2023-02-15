@@ -13,6 +13,7 @@
   "plugins": [
     "-sharing",
     "fontsettings",
+    "-lunr",
     "-search",
     "search-pro",
     "expandable-chapters-small",
