@@ -23,9 +23,14 @@
     "code",
     "popup",
     "back-to-top-button",
-    "tbfed-pagefooter"
+    "tbfed-pagefooter",
+    "edit-link-plus"
   ],
   "pluginsConfig": {
+    "edit-link-plus": {
+      "base": "https://github.com/isunyuan/blog/edit/master",
+      "label": "编辑本页"
+    },
     "github-buttons": {
       "buttons": [
         {
