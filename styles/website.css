@@ -8,3 +8,11 @@
 #book-search-input::-webkit-input-placeholder  {
     color: #939da3;
 }
+
+.page-footer .copyright {
+    display: none;
+}
+
+.page-footer .footer-modification {
+    float: left;
+}
